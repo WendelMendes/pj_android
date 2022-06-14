@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family:"idroid";
+    src: url("/projeto_android/fonts/idroid.otf") format("opentype");
+}
+
+body{
+    background-color: #83E1AD;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #0a5c2d, #1e7545 , #249758,#41da86);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.menu{/*links menu*/
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.menu:hover{
+    color:yellow;
+}
+
+.menu:active{
+    color: rgb(177, 177, 0);
+}
+
+main{
+    background-color: white;
+    max-width: 900px;
+    min-width: 320px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.644);
+}
+
+h1{
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 3.5em;
+}
+
+h2{
+    margin-top: 0px; 
+    font-family: "idroid";
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #177541;
+    font-size: 1.8em;
+}
+
+h3{
+    font-family: "idroid";
+    padding-top: 1px;
+    padding-left: 20px;
+    color: #177541;
+    margin-left:10px;
+    font-size: 1.4em;
+    background-image: linear-gradient(to right, #2caf6742,#41da864b, white );
+}
+
+p{
+    font-family: arial;
+    text-indent: 40px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+aside{
+    text-align: center;
+    min-width: 320px;
+
+}
+
+aside#video{
+    background-color: #063D1E;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+section#extra{
+    border: 10px dashed tra;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: #83e1adb0;
+}
+
+h2#extra_titulo{
+    background-color: #249758;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+div{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#extra_p{
+    padding-bottom: 30px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #063D1E;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
